@@ -23,13 +23,13 @@ License URI:
 --------------------------------------------------------------------------------------*/
 @media (min-width: 1200px) and (max-width: 1600px){
     .featured_slider_2 .owl-dots{
-        left: -105px;
+        left: 50%;
     }
     .featured_slider_2 .owl-dots .owl-dot:before{
         left: 30px;
     }
     .featured_slider_2 .owl-dots .owl-dot.active:before, .featured_slider_2 .owl-dots .owl-dot:hover:before{
-        width: 50px;
+        width: 15px;
     }
     .header_02.head_04:after{
         width: 6%;
@@ -677,20 +677,24 @@ License URI:
         margin-left: 0;
     }
     .featured_slider_2 .owl-dots .owl-dot.active:before, .featured_slider_2 .owl-dots .owl-dot:hover:before{
-        width: 60px;
+        width: 15px;
     }
     .featured_slider_2 .owl-dots .owl-dot{
         line-height: .8;
     }
     .featured_slider_2 .owl-dots {
-        left: -100px;
+        /* left: -100px;
         right: 0;
         margin: 0;
         top: auto;
         bottom: 95%;
         text-align: center;
         z-index: 5;
-        transform: rotate(-90deg);
+        transform: rotate(-90deg); */
+
+        left: 50%;
+    bottom: 0;
+    z-index: 5;
     }
 
 }
@@ -707,20 +711,29 @@ License URI:
         padding-right: 0;
     }
     .featured_slider_2 .owl-dots .owl-dot.active:before, .featured_slider_2 .owl-dots .owl-dot:hover:before{
-        width: 60px;
+        width: 15px;
     }
     .featured_slider_2 .owl-dots .owl-dot{
         line-height: .8;
     }
     .featured_slider_2 .owl-dots {
-        left: -30px;
+        /* left: -30px;
         right: 0;
         margin: 0;
         top: auto;
         bottom: 235px;
         text-align: center;
         z-index: 5;
-        transform: rotate(-90deg);
+        transform: rotate(-90deg); */
+
+        left: 50%;
+    /* transform: translate(-50%, -50%); */
+    right: 0;
+    margin: 0;
+    top: auto;
+    bottom: 0;
+    text-align: center;
+    z-index: 5;
     }
     .content_coming_soon{
         margin: 0;
@@ -2900,19 +2913,28 @@ License URI:
         margin-bottom: 50px;
     }
     .featured_slider_2 .owl-dots{
-        left: 0;
+        /* left: 0;
         right: 0;
         margin: 0 auto;
         top: auto;
         bottom: -40px;
         text-align: center;
-        transform: rotate(-90deg);
+        transform: rotate(-90deg); */
+
+        left: 50%;
+    right: 0;
+    margin: 0 auto;
+    top: auto;
+    bottom: 0px;
+    text-align: center;
+    /* transform: translate(-50%, -50%); */
+    
     }
     .featured_slider_2 .owl-dots .owl-dot:before{
-        width: 20px;
+        width: 15px;
     }
     .featured_slider_2 .owl-dots .owl-dot.active:before, .featured_slider_2 .owl-dots .owl-dot:hover:before{
-        width: 30px;
+        width: 15px;
     }
     .pad_left_25 {
         padding-left: 15px;

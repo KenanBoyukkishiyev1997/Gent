@@ -127,7 +127,7 @@ License URI:
     });
     var i = 1;
     $('.featured_slider_2 .owl-dot').each(function(){
-      $(this).html('<span>0' + i+'</span>');
+      
       i++;
     });
     modern_slide.owlCarousel({
